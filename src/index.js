@@ -2,11 +2,11 @@ function game() {
     const game = {};
 
     game.state = {
-        
+
     }
 
     function start() {
-        // position the pieces
+        
     }
 
     function stop() {}
@@ -15,14 +15,15 @@ function game() {
 
     function save() {}
 
-    game.start;
-    game.stop;
-    game.reset;
-    game.save;
+    game.start = start;
+    game.stop = stop;
+    game.reset = reset;
+    game.save = save;
 
     return game;
 }
 
-module.export = {
-    game,
-};
+document.getElementById('start-game-btn').addEventListener("click", () => {
+    const gameStarted = game();
+    gameStarted.start();
+})

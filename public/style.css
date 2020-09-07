@@ -1,0 +1,40 @@
+.content-game {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.chess-board {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.chess-board th {
+    padding: .5em;
+}
+
+.chess-board td {
+    border: 1px solid;
+    width: 5em;
+    height: 5em;
+    
+}
+
+.chess-board .light {
+    background-color: #eee;
+}
+
+.chess-board .dark {
+    background-color: #000;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    color: red;
+    height: 75px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
